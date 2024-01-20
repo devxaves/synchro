@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    
     <div class="navbar">
         <div class="navbar-logo">
             <img src="../static/Group 1.svg">
@@ -22,6 +23,12 @@
     </div>
     <!-- <form action='/predict' method="post"></form> -->
     <div class="diabetes-page">
+        <div class="video-background">
+            <video autoplay muted loop id="video-bg">
+              <source src="../static/video4.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+        </div>
         <div class="diabetes-text">
             <p> Let <span> AI </span> Predict your Health Conditions ,<br> So that <span> YOU</span> can take Extra
                 Precautions </p>
@@ -84,7 +91,7 @@
                         <button class="btn2">Download Report</button>
                     </div>
                 </div>
-                <div style="display: flex;">
+                <div style="display: flex; width: 100%; justify-content: center;">
                     <div class="predict1">
                         Prediction :
 
@@ -193,8 +200,11 @@
         if (resultShow.innerHTML.includes("1")) {
             resultShow.innerHTML = "Diabetes is suspected";
         }
-        else {
+        else if (resultShow.innerHTML.includes("0")) {
             resultShow.innerHTML = "Diabetes is not being suspected";
+        }
+        else {
+            resultShow.innerHTML = " ";
         }
 
 
