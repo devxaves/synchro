@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 500vh;
+    background: linear-gradient(108deg, #0091FB 4.64%, #95C6FF 84.05%); ;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    flex-shrink: 0;
+    background: #C1E5FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-logo img {
+    width: 30px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 69px;
+    margin-top: 16px;
+}
+
+.navbar-name h1 {
+    color: #034C81;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.navbar-link1 a {
+    position: absolute;
+    top: 16px;
+    left: 600px;
+    color: #034C81;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navbar-link2 a {
+    position: absolute;
+    top: 16px;
+    left: 800px;
+    color: #034C81;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btn {
+    height: 25px;
+    width: 100px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 14px;
+    right: 72px;
+    border-radius: 20px;
+    border: 2px solid #034C81;
+    background: rgba(217, 217, 217, 0.00);
+    color: #034C81;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.diabetes-page {
+    width: 100%;
+    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.diabetes-text p {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 69px;
+}
+
+.diabetes-text span {
+    color: #1E1E1E;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.diabetes-patient-name h1 {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 69px;
+    margin-bottom: 15px;
+}
+
+.diabetes-symtomps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+
+.input-box {
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin-right: 40px;
+    margin-left: 69px;
+    margin-bottom: 35px;
+    margin-top: 7px;
+    border: 1px solid #034C81;
+}
+
+.diabetes-symtomps p {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 69px;
+
+}
