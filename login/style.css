@@ -73,7 +73,7 @@ img {
 
 .login-form {
     position: relative;
-    background-color: hsla(0, 0%, 10%, 0.1);
+    background-color: hsla(0, 0%, 84%, 0.253);
     border: 2px solid var(--white-color);
     margin-inline: 1.5rem;
     padding: 2.5rem 1.5rem;
@@ -277,3 +277,4 @@ img {
     font-weight: 700;
     line-height: normal;
 }
+
